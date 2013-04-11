@@ -1,0 +1,14 @@
+Source: cmake-hello-world
+Section: x11
+Priority: extra
+Maintainer: Cody Garver <cody@elementaryos.org>
+Build-Depends: cmake (>= 2.8),
+               debhelper (>= 8.0.0),
+               valac-0.16 | valac (>= 0.16)
+Standards-Version: 3.9.3
+
+Package: cmake-hello-world
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Hey young world
+ This is a Hello World written in Vala using CMake build system.
