@@ -1,4 +1,4 @@
-Source: cmake-hello-world
+Source: com.github.yourusername.yourrepositoryname
 Section: x11
 Priority: extra
 Maintainer: Cody Garver <cody@elementaryos.org>
@@ -8,7 +8,7 @@ Build-Depends: cmake (>= 2.8),
                valac (>= 0.16)
 Standards-Version: 3.9.3
 
-Package: cmake-hello-world
+Package: com.github.yourusername.yourrepositoryname
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Hey young world
