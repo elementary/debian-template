@@ -1,6 +1,6 @@
 Source: com.github.yourusername.yourrepositoryname
 Section: x11
-Priority: extra
+Priority: optional
 Maintainer: Cody Garver <cody@elementary.io>
 Build-Depends: cmake (>= 2.8),
                debhelper (>= 9),
