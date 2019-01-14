@@ -1,11 +1,11 @@
 Source: com.github.yourusername.yourrepositoryname
 Section: x11
-Priority: extra
+Priority: optional
 Maintainer: Cody Garver <cody@elementary.io>
 Build-Depends: cmake (>= 2.8),
                debhelper (>= 9),
                libgtk-3-dev,
-               valac (>= 0.16)
+               valac (>= 0.40.0)
 Standards-Version: 3.9.3
 
 Package: com.github.yourusername.yourrepositoryname
